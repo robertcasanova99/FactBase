@@ -1,0 +1,74 @@
+input[type="text"] {
+  z-index:2;
+  position: absolute;
+  transform: translate3d(-50%,-50%,0);
+  width: 50%;
+  border: 3px solid #aaa;
+  border-radius: 4px;
+  margin: 0;
+  padding: 8.5px;
+  top: 51%;
+  left: 50%;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #f9f1e9;
+  box-shadow: 0 0 8px 0 #f9f1e9;
+}
+
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: #f9f1e9;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #f9f1e9;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: #f9f1e9;
+}
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-120%,0);
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+.sub-title {
+	position: absolute;
+
+	color: #f9f1e9;
+	text-align: center;
+	top: 53%;
+	left: 50%;
+	transform: translate3d(-50%,0%,0);
+}
+.bottom-text{
+  position: relative;
+  transform: translate3d(0%,-450%,0);
+  left: 50%;
+}
