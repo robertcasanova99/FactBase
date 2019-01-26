@@ -19,8 +19,8 @@ if ($result->num_rows > 0) {
     	if ($row["id"] == $fetchNum) {
     		echo $row["fact"];
     	}
-	} 
-}else {
+    } 
+}  else {
     echo "Empty database!";
 } 
 
