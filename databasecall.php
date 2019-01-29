@@ -1,9 +1,14 @@
 <?php
-$servername = "104.197.45.17";
-$username = "robert";
-$password = "robert";
-$dbname = "facts";
+/*
 
+login creditions to sql server
+they dont work because github pages is only static.. :(
+
+$servername = 
+$username = 
+$password = 
+$dbname = 
+*/
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
